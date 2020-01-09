@@ -17,9 +17,15 @@ namespace ProductivityTools.PowershellHelpEditor
     /// </summary>
     public partial class About : Window
     {
+        string Psm1Directory;
         public About()
         {
             InitializeComponent();
+        }
+
+        public About(string psm1Directory) : this()
+        {
+            this.Psm1Directory = psm1Directory;
         }
     }
 }

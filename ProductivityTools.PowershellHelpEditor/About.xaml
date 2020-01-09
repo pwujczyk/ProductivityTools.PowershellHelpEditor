@@ -9,6 +9,7 @@
     <Grid>
         <TextBox HorizontalAlignment="Left" Margin="102,56,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="102,30,0,0" VerticalAlignment="Top"/>
+        <Button Content="Create general help" HorizontalAlignment="Left" Margin="37,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.631,-0.048"/>
 
     </Grid>
 </Window>
