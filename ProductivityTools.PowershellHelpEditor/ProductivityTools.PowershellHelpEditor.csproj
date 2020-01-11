@@ -10,4 +10,8 @@
     <PackageReference Include="WindowsAPICodePack-Shell" Version="1.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProductivityTools.PowershellHelpEditor.Objects\ProductivityTools.PowershellHelpEditor.Files.csproj" />
+  </ItemGroup>
+
 </Project>

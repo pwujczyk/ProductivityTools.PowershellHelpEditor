@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProductivityTools.PowershellHelpEditor.AboutWindow;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -21,6 +22,7 @@ namespace ProductivityTools.PowershellHelpEditor
         public About()
         {
             InitializeComponent();
+            this.DataContext = new AboutVM();
         }
 
         public About(string psm1Directory) : this()

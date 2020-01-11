@@ -1,0 +1,31 @@
+﻿<Window x:Class="ProductivityTools.PowershellHelpEditor.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProductivityTools.PowershellHelpEditor"
+        mc:Ignorable="d"
+        Title="About" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Button Content="Create general help" HorizontalAlignment="Left" VerticalAlignment="Top" Command="{Binding AboutHelpCommand}"/>
+            <Label Content="About" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Text="{Binding AboutHelp.Topic}" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+            <Label Content="Short description" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Text="{Binding AboutHelp.ShortDescription}" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+            <Label Content="Long description" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Text="{Binding AboutHelp.LongDescription}" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+            <Label Content="Examples" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Text="{Binding AboutHelp.Examples}" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+            <Label Content="Keywords" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Text="{Binding AboutHelp.Keywords}" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+            <Label Content="See also" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Text="{Binding AboutHelp.SeeAlso}" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        </StackPanel>
+    </Grid>
+</Window>

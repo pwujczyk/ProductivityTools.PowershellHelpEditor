@@ -14,6 +14,7 @@ namespace ProductivityTools.PowershellHelpEditor
 
         private string ModuleDirectory { get; set; }
 
+      
         private string psm1directory;
         public string Psm1Directory
         {
